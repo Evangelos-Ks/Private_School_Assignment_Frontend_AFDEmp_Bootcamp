@@ -1,0 +1,118 @@
+body{
+    font-family: sans-serif;
+}
+
+form{
+    max-width:100%;
+    margin: 2em auto;
+    border: 2px solid black;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+
+label{
+    display: block;
+    padding: 1em 0 0em 0em;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+input{
+    display: block;
+    width:100%;
+    border: 2px solid #a9c6cc;
+    padding: 0.5em;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+input:hover{
+    border-color:  rgb(112, 156, 206);
+}
+
+#addButton{
+    background:  #1b0f52;
+    padding: .5em;
+    margin: 1em 0;
+    width: auto;
+    text-transform: uppercase;
+    color: rgb(189, 223, 235);
+    cursor: pointer;
+    transition: 0.6s background ease;
+    font-weight: bolder;
+}
+
+#addButton:hover {
+    background: rgb(112, 156, 206);
+    color:black;
+}
+
+h3 {
+    background-color: #333;
+    padding: 12px;
+    border-radius: 20px;
+    font-weight: bolder;
+    letter-spacing: .1em;
+    color:  rgba(255, 255, 255, 0.692);
+  }
+
+
+table{
+    border-collapse: collapse;
+}
+
+
+  .list{
+    width:100%;
+}
+
+td, th {
+    /* border: 1px solid gray; */
+    text-align: left;
+    /* padding: 8px; */
+    padding-right: 2px;
+    padding-left: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#edit{
+    background:  rgb(67, 173, 115);
+    border-radius: 2px;
+    padding: .5em;
+    margin: 1em 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+#update{
+    background:  rgb(67, 173, 115);
+    border-radius: 2px;
+    padding: .5em;
+    margin: 1em 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#delete{
+    background:  tomato;
+    border-radius: 2px;
+    padding: .5em;
+    margin: 1em 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+thead{
+    background-color:  rgb(112, 156, 206);
+}
+
+

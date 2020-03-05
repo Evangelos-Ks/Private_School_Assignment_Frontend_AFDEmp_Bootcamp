@@ -1,0 +1,48 @@
+li{
+    list-style: none;
+    margin:  0.1em 0.1em;
+    display: inline-block;
+    font-size: 1.3em;
+    /* padding:  0.1em 0.1em; */
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+    transition: .5s;
+}
+
+li :hover{
+    color: rgb(221, 206, 206);
+    /* border: 1px solid red; */
+    /* border-radius: 50%;  */
+    transition: .5s;
+}
+
+
+#socialRow-title{
+    background: rgb(112, 156, 206);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    /* color: white; */
+  }
+
+#brandTitle{
+    font-family: 'Abril Fatface', cursive;
+    position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+#blueTopRow1, #blueTopRow2, #blueTopRow3{
+  height: 2.3em;
+}
+
+#navBar{
+  background-color: rgb(112, 156, 206);
+}
+
+footer{
+  background-color: rgb(112, 156, 206);
+}
+
